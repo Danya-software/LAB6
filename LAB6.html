@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота №6</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Лабораторна робота №6</h1>
+
+    <div class="section">
+        <h2>Завдання 16: Сума та добуток N перших натуральних чисел</h2>
+        <p>Введіть N: <input type="number" id="num" value="5"></p>
+        <button onclick="calculate()">Обчислити</button>
+        <p id="result"></p>
+    </div>
+
+    <div class="section">
+        <h2>Завдання 17: Непарні числа від 1 до 99</h2>
+        <button onclick="showOddNumbers()">Вивести непарні числа</button>
+        <p id="oddNumbers"></p>
+    </div>
+
+    <div class="section">
+        <h2>Завдання 18: Обчислення факторіала</h2>
+        <p>Введіть число для факторіала: <input type="number" id="factorialNum" value="5"></p>
+        <button onclick="calculateFactorial()">Обчислити факторіал</button>
+        <p id="factorialResult"></p>
+    </div>
+
+    <div class="section">
+        <h2>Завдання 19: Таблиця множення</h2>
+        <button onclick="showMultiplicationTable()">Показати таблицю множення</button>
+        <table id="multiplicationTable" border="1" style="border-collapse: collapse; text-align: center;"></table>
+    </div>
+
+    <script src="LAB6.js"></script>
+</body>
+
+</html>
